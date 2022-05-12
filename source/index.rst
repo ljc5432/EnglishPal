@@ -45,7 +45,7 @@ BeginningOfSpring
 '''''''''
 snakefood.dot
 """"""""
-```python
+```javascript
 strict digraph "dependencies" {
     graph [
             rankdir="LR",
