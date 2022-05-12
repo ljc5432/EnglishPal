@@ -45,7 +45,7 @@ BeginningOfSpring
 '''''''''
 snakefood.dot
 """"""""
-::
+.. highlight:: sh
    strict digraph "dependencies" {
        graph [
                rankdir="LR",
