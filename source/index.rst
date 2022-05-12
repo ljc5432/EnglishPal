@@ -566,9 +566,3 @@ BeginningOfSpring版本将原本混杂在main.py中的html代码移出到templat
 End
 ~~~
 
-.. |image0| image:: https://github.com/ljc5432/EnglishPal/blob/main/image/BeginningOfSpringDependency.jpg?raw=true
-.. |image1| image:: https://raw.githubusercontent.com/ljc5432/EnglishPal/main/image/BeginningOfSpringClass.svg
-.. |image2| image:: https://raw.githubusercontent.com/ljc5432/EnglishPal/e6757d30ec0f8e3121f1a53bc7ffa73258b8cd9e/image/ColdDewDependency.svg
-.. |image3| image:: https://raw.githubusercontent.com/ljc5432/EnglishPal/e6757d30ec0f8e3121f1a53bc7ffa73258b8cd9e/image/ColdDewClass.svg
-.. |image4| image:: https://raw.githubusercontent.com/ljc5432/EnglishPal/e6757d30ec0f8e3121f1a53bc7ffa73258b8cd9e/image/Chapter4Dependency.svg
-.. |image5| image:: https://raw.githubusercontent.com/ljc5432/EnglishPal/e6757d30ec0f8e3121f1a53bc7ffa73258b8cd9e/image/Chapter4Class.svg
