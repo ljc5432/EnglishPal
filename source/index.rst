@@ -79,11 +79,13 @@ snakefood.dot
 
    }
 
-####依赖图
+依赖图
+^^^^^^^^^^^^^
 
 |image0|
 
-####mermaid.txt
+mermaid.txt
+^^^^^^^^^^^^^
 
 ::
 
@@ -216,8 +218,6 @@ snakefood.dot
 
 ColdDew
 ^^^^^^^
-
-.. _snakefood.dot-1:
 
 snakefood.dot
 ^^^^^^^^^^^^^
