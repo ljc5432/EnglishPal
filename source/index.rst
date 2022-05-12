@@ -82,7 +82,7 @@ snakefood.dot
 依赖图
 ^^^^^^^^^^^^^
 
-.. image:: https://github.com/ljc5432/EnglishPal/blob/main/image/BeginningOfSpringDependency.jpg?raw=true
+.. image:: https://github.com/ljc5432/EnglishPal/blob/main/image/BeginningOfSpringDependency.jpg
 
 mermaid.txt
 ^^^^^^^^^^^^^
