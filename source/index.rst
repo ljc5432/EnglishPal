@@ -22,7 +22,27 @@ Lab1:Dependency Analysis and Dependency Graphs
 
 Abstract
 ==================
+找出EnglishPal中模块/类/函数之间的依赖关系，绘制依赖图，分析EnglishPal当前依赖关系利弊。
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+
+Introduction
+==================
+EnglishPal是智能捕捉阅读弱点，针对性提高用户的阅读水平的网站。提高用户的获取英文信息的速度与准确度。提供精选短文和生词簿，对于英语老师，English Pal 可以帮助掌握题目词汇规律，提高教学质量。对于英语学习者，English Pal可以帮助迅速提高词汇，轻松应对各种考试。本次实验针对EnglishPal源代码，分析当前模块级依赖关系以及类/函数级依赖关系，分析当前体系结构。
+
+
+Methods and materials
+==================
+①Snakefood：从Python代码中生成依赖，过滤，聚类，并从依赖列表中生成图表。使用Snakefood捕获模块级依赖关系。
+
+②Graphviz：开源的图形可视化软件。使用graphviz online渲染依赖关系图。
+
+③Mermaid：基于Javascript的图表和图表工具，使用文本和代码创建图表和可视化，以便动态地创建和修改图表。使用mermaid live editor渲染类/函数级依赖关系图。
+
+
+Results
+==================
+BeginningOfSpring
+'''''''''
+snakefood.dot
+""""""""
+
