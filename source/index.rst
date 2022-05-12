@@ -45,7 +45,9 @@ BeginningOfSpring
 '''''''''
 snakefood.dot
 """"""""
+
 ```mermaid
+
 strict digraph "dependencies" {
     graph [
             rankdir="LR",
@@ -83,7 +85,10 @@ strict digraph "dependencies" {
     "app.wordfreqCMD" -> "app.WordFreq"
     "app.pickle_idea" -> "app.wordfreqCMD"
 }
+
 ```
+
+
 ColdDew
 """"""""
 ```dot
