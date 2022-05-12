@@ -45,7 +45,7 @@ BeginningOfSpring
 '''''''''
 snakefood.dot
 """"""""
-```dot
+```mermaid
 strict digraph "dependencies" {
     graph [
             rankdir="LR",
