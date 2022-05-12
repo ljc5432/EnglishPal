@@ -82,7 +82,7 @@ snakefood.dot
 依赖图
 ^^^^^^^^^^^^^
 
-.. image:: ../media/BeginningOfSpringDependency.jpg
+.. image:: ../media/BeginningOfSpringDependency.svg
 
 mermaid.txt
 ^^^^^^^^^^^^^
@@ -214,7 +214,7 @@ mermaid.txt
 类图
 ^^^^
 
-|image1|
+.. image:: ../media/BeginningOfSpringClass.jpg
 
 ColdDew
 ^^^^^^^
@@ -255,7 +255,7 @@ snakefood.dot
 依赖图
 ^^^^^^
 
-|image2|
+.. image:: ../media/ColdDewDependency.svg
 
 mermaid.txt
 ^^^^^^^^^^^
@@ -365,12 +365,11 @@ mermaid.txt
            save_frequency_to_pickle():
        }
 
-.. _类图-1:
 
 类图
 ^^^^
 
-|image3|
+.. image:: ../media/ColdDewClass.svg
 
 Chapter 4
 ~~~~~~~~~
@@ -431,14 +430,11 @@ snakefood.doc
        "allocation.service_layer.unit_of_work" -> "allocation.views"
    }
 
-.. _依赖图-1:
-
 依赖图
 ^^^^^^
 
-|image4|
+.. image:: ../media/Chapter4Dependency.svg
 
-.. _mermaid.txt-1:
 
 mermaid.txt
 ^^^^^^^^^^^
@@ -515,12 +511,10 @@ mermaid.txt
    unit_of_work ..> repository
    unit_of_work ..> config
 
-.. _类图-2:
-
 类图
 ^^^^
 
-|image5|
+.. image:: ../media/Chapter4Class.svg
 
 架构利弊分析
 ~~~~~~~~~~~~
