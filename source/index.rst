@@ -45,4 +45,44 @@ BeginningOfSpring
 '''''''''
 snakefood.dot
 """"""""
+ColdDew
+""""""""
+(```)
+strict digraph "dependencies" {
+    graph [
+            rankdir="LR",
+            overlap="scale",
+            ratio="fill",
+            fontsize="16",
+            dpi="150",
+            clusterrank="local"
+        ]
 
+       node [
+            fontsize=14
+            shape=ellipse
+            fontname=Consolas
+       ];
+    "app.Login" -> "app.account_service"
+    "app.difficulty" -> "app.Article"
+    "app.pickle_idea" -> "app.Article"
+    "app.pickle_idea2" -> "app.Article"
+    "app.wordfreqCMD" -> "app.Article"
+    "app.WordFreq" -> "app.Article"
+    "app.UseSqlite" -> "app.Article"
+    "app.wordfreqCMD" -> "app.difficulty"
+    "app.UseSqlite" -> "app.Login"
+    "app.user_service" -> "app.main"
+    "app.Login" -> "app.main"
+    "app.account_service" -> "app.main"
+    "app.Yaml" -> "app.main"
+    "app.Article" -> "app.main"
+    "app.pickle_idea" -> "app.user_service"
+    "app.pickle_idea2" -> "app.user_service"
+    "app.wordfreqCMD" -> "app.user_service"
+    "app.WordFreq" -> "app.user_service"
+    "app.Article" -> "app.user_service"
+    "app.wordfreqCMD" -> "app.WordFreq"
+    "app.pickle_idea" -> "app.wordfreqCMD"
+}
+(```)
